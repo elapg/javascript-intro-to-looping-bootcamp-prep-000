@@ -19,7 +19,11 @@ function whileLoop(n) {
   }
 
 function doWhileLoop(num) {
+<<<<<<< HEAD
 var i = 0
+=======
+
+>>>>>>> 7ce38b24d75d5c26fb7231e7ed6cd5ce42ddef06
 function incrementVariable() {
   i = i + 1;
   return i;
@@ -27,5 +31,9 @@ function incrementVariable() {
 
 do {
   console.log("doo-bee-doo-bee-doo");
+<<<<<<< HEAD
 } while (incrementVariable() < num);
+=======
+} while (incrementVariable() < 5);
+>>>>>>> 7ce38b24d75d5c26fb7231e7ed6cd5ce42ddef06
 }
